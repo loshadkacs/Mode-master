@@ -1,0 +1,74 @@
+"Guns Menu"
+{
+	"default_weapon"			"weapon_deagle"
+	"default_weapon_slot"		"1" 
+
+	"Пистолеты"
+	{
+		"Glock"				"weapon_glock"
+		"P2000"				"weapon_hkp2000"		
+		"USP-S"				"weapon_usp_silencer"	
+		"P250"				"weapon_p250"			
+		"Desert Eagle"		"weapon_deagle"			
+		"CZ75-Auto"			"weapon_cz75a"			
+		"Five-SeveN"		"weapon_fiveseven"		
+		"Tec-9"				"weapon_tec9"			
+		"Dual Berettas"		"weapon_elite"			
+		"R8 Revolver"		"weapon_revolver"
+
+		"slot"				"1"
+	}
+	
+	"Пистолеты-пулеметы"
+	{
+		"MP7"				"weapon_mp7"			
+		"MP9"				"weapon_mp9"			
+		"Mac-10"			"weapon_mac10"			
+		"PP-Bizon"			"weapon_bizon"			
+		"UMP-45"			"weapon_ump45"			
+		"P90"				"weapon_p90"
+
+		"slot"				"0"
+	}
+	
+	"Дробовики"
+	{
+		"Nova"				"weapon_nova"			
+		"XM1014"			"weapon_xm1014"			
+		"Sawed-Off"			"weapon_sawedoff"		
+		"MAG-7"				"weapon_mag7"
+
+		"slot"				"0"
+	}
+	
+	"Винтовки"
+	{
+		"AK-47"				"weapon_ak47"			
+		"M4A4"				"weapon_m4a1"			
+		"M4A1-S"			"weapon_m4a1_silencer"	
+		"FAMAS"				"weapon_famas"			
+		"Galil AR"			"weapon_galilar"		
+		"AUG"				"weapon_aug"			
+		"SG 553"			"weapon_sg556"
+
+		"slot"				"0"
+	}
+	
+	"Снайперские винтовки"
+	{
+		"Scout (SSG 08)"	"weapon_ssg08"			
+		"SCAR-20"			"weapon_scar20"			
+		"G3SG1"				"weapon_g3sg1"			
+		"AWP"				"weapon_awp"
+
+		"slot"				"0"
+	}
+	
+	"Пулеметы"
+	{
+		"M249"				"weapon_m249"			
+		"Negev"				"weapon_negev"
+
+		"slot"				"0"
+	}
+}

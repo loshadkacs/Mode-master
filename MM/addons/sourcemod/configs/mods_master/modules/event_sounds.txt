@@ -1,0 +1,29 @@
+"Event Sounds"
+{
+	"Conquest"
+	{
+		"A"
+		{	
+			"captured_sound"		"conquest/a_captured.mp3"
+			"lost_sound"			"conquest/a_lost.mp3"
+		}
+		
+		"B"
+		{	
+			"captured_sound"		"conquest/b_captured.mp3"
+			"lost_sound"			"conquest/b_lost.mp3"
+		}
+		
+		"C"
+		{	
+			"captured_sound"		"conquest/c_captured.mp3" 
+			"lost_sound"			"conquest/c_lost.mp3"
+		}
+		
+		"D"
+		{	
+			"captured_sound"		"conquest/d_captured.mp3"
+			"lost_sound"			"conquest/d_lost.mp3"
+		}
+	}
+}

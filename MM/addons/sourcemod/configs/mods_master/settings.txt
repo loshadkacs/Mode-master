@@ -1,0 +1,87 @@
+"Mods Master"
+{
+	"Settings"
+	{
+		"vote_no_current_map" 				"0" // Будет ли исключена текущая карта из голосования созданного модом.
+	
+		"Capture Flag"
+		{
+			"flag_color_team"				"1" // Будет ли покрашен флаг в цвет команды? (1 - Да, 0 - Нет)
+			"flag_anim_idle_ct"				"idle" // Анимация фалага команды кт
+			"flag_anim_idle_t"				"idle"
+			"flag_anim_speed_ct"			"1.0" // Скорость анимации фалага команды кт
+			"flag_anim_speed_t"				"1.0"
+			"flag_model_ct"					"models/mapmodels/flags.mdl"
+			"flag_model_t"					"models/mapmodels/flags.mdl"
+			"pedestal_pos_ct"				"0 0 0" // Настройки позиции подставки флага команды кт
+			"pedestal_pos_t"				"0 0 0"
+			"pedestal_model_ct"				"models/props/pole.mdl"
+			"pedestal_model_t"				"models/props/pole.mdl"
+		
+			"flag_zone_size"				"1.0" // Регулирует размер зоны вокруг флага
+		
+			"flag_down_pos_z"				"-50.0" // Корректирует позицию выпавшего флага по оси Z
+		
+			"flag_down_time"				"20.0" // Сколько секунд будет лежать выпавший флаг, а после вернется на базу своей команды.
+			"flag_protect_time"				"10.0" // Сколько секунд после возврата флага на базу его нельзя будет взять.
+		
+			"flag_glow"						"1" // Подсветка флага. (0 - Выключено, 1 - Каждая команда видит только свой флаг, 2 - Все команды видят флаг) 
+			"flag_captured_glow"			"1" // Будет ли захваченный флаг игроком иметь подсветку.
+		
+			"round_time"					"10" // Время раунда в минутах.
+		
+			"round_end_time"				"5.0" // Сколько секунд будет длится "конец раунда"
+			
+			"vote_mode_time"				"90.0" // За сколько секунд до конца раунда будет запущено голосование за режим на следующей карте. (0.0 - Голосование не будет запущено)
+			"vote_map_time"					"0.0" // Через сколько секунд после голосования за режим захват флага будет запущено голосование за карту.
+		}
+		
+		"Conquest"
+		{
+			"flag_color_team"				"1" // Будет ли покрашен флаг в цвет команды? (1 - Да, 0 - Нет) 
+			"flag_anim_idle_ct"				"idle" // Анимация фалага команды кт
+			"flag_anim_idle_t"				"idle"
+			"flag_anim_idle_neutral"		"idle" 
+			"flag_anim_speed_ct"			"1.0" // Скорость анимации фалага команды кт
+			"flag_anim_speed_t"				"1.0"
+			"flag_anim_speed_neutral"		"1.0"
+			"flag_model_ct"					"models/mapmodels/flags.mdl"
+			"flag_model_t"					"models/mapmodels/flags.mdl"
+			"flag_model_neutral"			"models/mapmodels/flags.mdl"
+			"pedestal_pos_ct"				"0 0 0" // Настройки позиции подставки флага команды кт
+			"pedestal_pos_t"				"0 0 0"
+			"pedestal_pos_neutral"			"0 0 0"
+			"pedestal_model_ct"				"models/props/pole.mdl"
+			"pedestal_model_t"				"models/props/pole.mdl"
+			"pedestal_model_neutral"		"models/props/pole.mdl"
+
+			"flag_down_pos_z"				"-50.0" // Корректирует позицию выпавшего флага по оси Z
+		
+			"flag_down_time"				"20.0" // Сколько секунд будет лежать выпавший флаг, а после вернется на базу своей команды.
+			"flag_protect_time"				"10.0" // Сколько секунд после возврата флага на базу его нельзя будет взять.
+			
+			"round_time"					"5" // Время раунда в минутах.
+		
+			"round_end_time"				"5.0" // Сколько секунд будет длится "конец раунда"
+			
+			"sprite_zone_pos_z"				"50.0" // Корректирует позицию спрайта над зоной по оси Z
+			"sprite_zone_scale"				"0.3" // Меняет размер спрайта. 
+			
+			"Sprites"
+			{
+				"zone_a_ct"					"" // Полный путь до vmt файла.
+				"zone_a_t"					""
+				"zone_a_neutral"			""
+				"zone_b_ct"					""
+				"zone_b_t"					""
+				"zone_b_neutral"			""
+				"zone_c_ct"					""
+				"zone_c_t"					""
+				"zone_c_neutral"			""
+				"zone_d_ct"					""
+				"zone_d_t"					""
+				"zone_d_neutral"			""
+			}
+		}
+	}
+}

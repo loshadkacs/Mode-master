@@ -1,0 +1,36 @@
+"Flag Event Notifier"
+{
+	"Messages Enemy"		"1" // Будет ли другая команда видеть сообщения и оверлеи о чужом флаге (1 - Да, 0 - Нет)
+
+	"Protect Flag Info"		"1" // Будет ли выводится сообщение о защите флага
+	
+	"Time Overlay"			"1.5" // Сколько секунд будет отображатся оверлей
+
+	"Flag Zone"
+	{
+		"text"				"1"
+		"overlay_ct"		""
+		"overlay_t"			""
+	}
+
+	"Flag Down"
+	{
+		"text"				"1"
+		"overlay_ct"		""
+		"overlay_t"			"" 
+	}
+	
+	"Flag Captured"
+	{
+		"text"				"1"
+		"overlay_ct"		""
+		"overlay_t"			""
+	}
+	
+	"Flag Delivered"
+	{	
+		"text"				"1"
+		"overlay_ct"		""
+		"overlay_t"			""
+	}
+}

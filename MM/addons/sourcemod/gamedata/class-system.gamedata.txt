@@ -1,0 +1,19 @@
+"Games"
+{
+	"csgo"
+	{
+		"Offsets"
+		{
+			"GetMaxClip"
+			{
+				"windows"	"351"
+				"linux"		"357"
+			}
+			"GetMaxReserve"
+			{
+				"windows"	"355"
+				"linux"		"361"
+			}
+		}
+	}
+}
